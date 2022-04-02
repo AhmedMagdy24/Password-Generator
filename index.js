@@ -15,13 +15,13 @@ characterAmountRange.addEventListener('input', syncCharacterAmount)
 
 function genPassword() {
 
-   var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-   var passwordLength = characterAmountNumber.value;
-   var password = "";
+   const chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+   const passwordLength = characterAmountNumber.value;
+   const password = "";
 
 
-for (var i = 0; i <= passwordLength; i++) {
-  var randomNumber = Math.floor(Math.random() * chars.length);
+for (const i = 0; i <= passwordLength; i++) {
+  const randomNumber = Math.floor(Math.random() * chars.length);
   password += chars.substring(randomNumber, randomNumber +1);
  }
        document.querySelector("#password").value = password;
@@ -29,11 +29,11 @@ for (var i = 0; i <= passwordLength; i++) {
 }
 
 function genPassword1() {
-   var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-   var passwordLength = characterAmountNumber.value;
-   var password = "";
-for (var i = 0; i <= passwordLength; i++) {
-  var randomNumber = Math.floor(Math.random() * chars.length);
+   const chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+   const passwordLength = characterAmountNumber.value;
+   const password = "";
+for (const i = 0; i <= passwordLength; i++) {
+  const randomNumber = Math.floor(Math.random() * chars.length);
   password += chars.substring(randomNumber, randomNumber +1);
  }
        document.querySelector("#password1").value = password;
@@ -41,22 +41,22 @@ for (var i = 0; i <= passwordLength; i++) {
     
 
 function genPassword2() {
-   var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-   var passwordLength = characterAmountNumber.value;
-   var password = "";
-for (var i = 0; i <= passwordLength; i++) {
-  var randomNumber = Math.floor(Math.random() * chars.length);
+   const chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+   const passwordLength = characterAmountNumber.value;
+   const password = "";
+for (const i = 0; i <= passwordLength; i++) {
+  const randomNumber = Math.floor(Math.random() * chars.length);
   password += chars.substring(randomNumber, randomNumber +1);
  }
        document.querySelector("#password2").value = password;
 }
     
 function genPassword3() {
-   var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-   var passwordLength = characterAmountNumber.value;
-   var password = "";
-for (var i = 0; i <= passwordLength; i++) {
-  var randomNumber = Math.floor(Math.random() * chars.length);
+   const chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+   const passwordLength = characterAmountNumber.value;
+   const password = "";
+for (const i = 0; i <= passwordLength; i++) {
+  const randomNumber = Math.floor(Math.random() * chars.length);
   password += chars.substring(randomNumber, randomNumber +1);
  }
        document.querySelector("#password3").value = password;
