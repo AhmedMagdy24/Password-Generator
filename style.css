@@ -2,13 +2,14 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
      }
    
    body {
      background-color:#1F2937;
      padding: 60px 30px 10px 30px;
      width: 45%;
-     height: 60%;
+     height: 85%;
      margin: 0 auto;
      border: solid 2px #fff;
      margin-top: 75px;
