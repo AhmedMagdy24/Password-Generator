@@ -8,7 +8,7 @@ WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*
 
 # Copy app files to the Nginx html directory
-COPY . .
+COPY app/ .
 
 # Expose port 80
 EXPOSE 80
