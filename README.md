@@ -22,7 +22,7 @@ This project is a simple **Password Generator** web application built with **HTM
 * Generates secure random passwords in the browser.
 * Fully static frontend — no backend logic required.
 * Hosted inside an **Nginx container**.
-* Available at: `http://localhost:9090`
+* Available at: `http://localhost:9090` https://ahmedmagdy24.github.io/Password-Generator/
 
 ---
 
